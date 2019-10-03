@@ -1,4 +1,16 @@
-# vue-components
+# vue-components 组件库开发
+
+
+### button 组件开发
+
++ 按钮大小size: mini small normal large
++ 按钮颜色color: red(danger) orange(warning) green(success) gray(info) blue(primary) yellow cyan  purple
++ 按钮颜色程度shade: dark(深色) light(浅色)
++ 按钮形状shape: round(圆角) circle(圆形) block(块级) text(文字)
++ 按钮图标icon
++ loading
++ disable
++ native-type: button / submit / reset
 
 ## Project setup
 ```

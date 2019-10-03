@@ -1,5 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import { Alert, Button } from 'element-ui';
+
+Vue.use(Alert);
+Vue.use(Button);
 
 Vue.config.productionTip = false
 
