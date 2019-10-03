@@ -1,19 +1,29 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Vue components development"/>
-    <ms-button></ms-button>
+    <ms-button
+      color="red"
+      size="mini"
+      shape="round"
+      icon="ms-icon-edit"
+      shade="light"
+      @click="sayHello"
+    >456</ms-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import MsButton from './packages/button/src/button.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     MsButton
+  },
+
+  methods: {
+    sayHello() {
+      window.alert('oo')
+    }
   }
 }
 </script>
