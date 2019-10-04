@@ -8,9 +8,9 @@
 + 按钮颜色程度 shade: dark(深色) light(浅色)
 + 按钮形状 shape: round(圆角) circle(圆形) block(块级) text(文字)
 + 按钮图标 icon
-+ loading
-+ disable
-+ native-type: button / submit / reset
++ 加载中 loading
++ 禁用 disable
++ 原生属性 native-type: button / submit / reset
 
 ## Project setup
 ```

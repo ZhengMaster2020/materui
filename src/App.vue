@@ -2,24 +2,21 @@
   <div id="app">
     <ms-button
       color="red"
-      size="mini"
+      size="small"
       shape="round"
       icon="ms-icon-edit"
       shade="light"
       @click="sayHello"
-    >456</ms-button>
+    >denglu</ms-button>
+    <div>
+      <el-button native-type="reset">login</el-button>
+    </div>
   </div>
 </template>
 
 <script>
-import MsButton from './packages/button/src/button.vue'
-
 export default {
   name: 'App',
-  components: {
-    MsButton
-  },
-
   methods: {
     sayHello() {
       window.alert('oo')
